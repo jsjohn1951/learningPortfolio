@@ -351,7 +351,7 @@ svg {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #4c0441;
+  background-color: #6a1526;
 }
 
 .site-logo a {
@@ -367,7 +367,7 @@ svg {
 
 /* Navigation */
 .site-navigation {
-  background-color: #4e0554;
+  background-color: #6a1526;
 }
 
 .site-navigation.affix {
