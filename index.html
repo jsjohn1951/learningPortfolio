@@ -38,7 +38,7 @@
 
     <!-- Font Awesome core CSS -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -85,7 +85,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    
+
                     <div class="page-scroll site-logo">
                         <a href="#top">Willem J. Smith</a>
                     </div>
@@ -123,7 +123,7 @@
 							software engineering. The majority of my prior knowldge of programming came from self-learning sources, videos on Youtube
 							and courses on Udemy. The first serious initiative I took to learn programming was as a highschool student enrolled in 2
 							computer science courses with Acellus Academy. The first course I took was related to logic gates, a subject which
-							was later more firmly engraved into my mind by a class I took with 42 Abu Dhabi's accredited pathway. The second course I 
+							was later more firmly engraved into my mind by a class I took with 42 Abu Dhabi's accredited pathway. The second course I
 							enrolled in was a course on basic Java programming.
 							However, non of that education has even come close to the experience I've gained at 42. Now it is up to me to finish the
 							common core.
@@ -132,7 +132,7 @@
 						<p>
 							There were many hurdles I've had to overcome in order to be where I am today, non of those life lessons
 							have gone to waist. Some lessons were harder than others, however, what's important is that they become an
-							experience I've learned from. 
+							experience I've learned from.
 						</p>
 					</div>
 					<div class="col-sm-4"></div>
@@ -157,7 +157,7 @@
                             </div><!-- /.rectangle -->
                              <p style="padding:2%">Intra Achievements</p>
                         </div><!-- /.counter -->
-                    </div>  
+                    </div>
 					<div class="col-sm-4 col-xs-6">
                         <div class="counter">
                             <div class="rectangle medium-rectangle ">
@@ -187,27 +187,49 @@
 				<h2>Projects &amp reflections</h2>
 				<p class="section-subtitle"><span>Explore My Progress</span></p>
 				<div class="row">
-					<div class="col-sm-4">
+					<div class="col-sm-5">
 						<div class="main-service text-right">
-                            <h3>NetPractice</h3>
-                            <p>Our team is available to check on your questions and take in feedback as soon as possibly.</p>
-							<p>(No Github Repository Available)
+							<h3>Minishell</h3>
+							<img style="width:100%" src="assets/img/usefulimg/minishell.png" alt="">
+                            <p>
+								Minishell is a project in where 42 students learn how to implement multi-processing by incorpora
+							</p>
+							<p><a href="https://github.com/jsjohn1951/minishell"><b>Github Repository</b></a></p>
                         </div>
 						<div class="main-service text-right">
                             <h3>Philosophers</h3>
                             <p>Our team is available to check on your questions and take in feedback as soon as possibly.</p>
 							<p><a href="https://github.com/jsjohn1951/philo"><b>Github Repository</b></a></p>
                         </div>
+
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-5"></div>
+					<div class="col-sm-5">
 						<div class="main-service text-right">
+
 							<h3>Cub3d</h3>
+							<img style="width:100%" src="assets/img/usefulimg/Screen Shot 2022-11-12 at 1.46.16 PM.png" alt="">
 							<p>A project that introduces the concept of raycasting and the use of trigonomatry in graphics and programming.</p>
-							<p>My current approach is to incorporate the use of polar and cartesian coordinates to find the distance to a wall.
-								Simply increase the radius of the polar coordinates, then convert to cartesian. 
-								By adding the cartesian x / y coordinates to the player's current position you can then decern whether of not the ray has hit a wall
-								by comparing the resultant x and y to the grid (int **map). 
-								The radius of the polar coordinates is the distance from the player to the wall.
+							<p>
+								To create a 3d gaming world from a 2d map, it's important to understand that the inverse of the distance
+								from the player to an object multiplied by a scaling factor (based on the size of the window) will give you the correct
+								height to render a segment of the object. In order for the whole object to be rendered, the distances at each segment
+								of the whole object have to be considered.
+							</p>
+							<p>
+								During the time of Wolfenstein 3D, a method called raycasting was used to determine the distances at each increment of the degree
+								field of view. At every increment of the degree variable, a ray is cast to find the distance before rendering each segment of the window.
+							</p>
+							<p>
+								My initial approach was to create a set of functions that will deal with the conversion of polar and cartesian coordinates. In doing so, I
+								can incorporate the use nested while loops and increment the angle and the radius of the polar coordinates. By converting to cartesian I can then
+								add the cartesian x and y to my player's x and y position. Comparing the result to the 2d map that was parsed, I can then determine whether the ray
+								has hit an object.
+							</p>
+							<p>
+								This project is still ongoing, and I've realized that perhaps my method wasn't the most efficient way of doing things. However, the program does run
+								without any problems. It's simply necessary for me to improve the efficiency of the raycasting algorithm. This project has taught me a lot in the implementation
+								of trigonometric functions and it's purpose in programming.
 							</p>
 							<p>(Currently Private) <a href="https://github.com/42nmadi/cub3d"><b>Github Repository</b></a></p>
 						</div>
@@ -215,9 +237,9 @@
                             <h3>Push_swap</h3>
                             <p>Our team is available to check on your questions and take in feedback as soon as possibly.</p>
 							<p><a href="https://github.com/jsjohn1951/philo"><b>Github Repository</b></a></p>
-                        </div>				
+                        </div>
 						</div>
-					<div class="col-sm-4">
+					<!-- <div class="col-sm-5">
 						<div class="main-service text-right">
 							<h3>C++ Modules</h3>
                             <p>Our team is available to check on your questions and take in feedback as soon as possibly.</p>
@@ -228,7 +250,7 @@
                             <p>Our team is available to check on your questions and take in feedback as soon as possibly.</p>
 							<p><a href="https://github.com/jsjohn1951/minishell"><b>Github Repository</b></a></p>
                         </div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>
@@ -305,26 +327,28 @@
 					<h4 style="text-align: left; color: #7858A6;">C++</h4>
 				</div>
 				</div>
-				
-					
-					
+
+
+
 				</div>
         </section>
         <!-- End Skills Section -->
 
 
+				</div>
+        </section>
+        <!-- End Skills Section -->
 
-        <!-- Me section --> 
+        <!-- Me section -->
         <section class="section-background section-me background-overlay text-center">
             <div class="container page-scroll">
                 <h2>Are You Impressed By My Work?</h2>
-                <p>Durabitur commodo ras non urna mauris mollis auctor proin laoreet</p>
                 <a href="#contact" class="btn">GET IN TOUCH</a>
             </div>
         </section><!-- /.section-me -->
-        <!-- End Me section --> 
+        <!-- End Me section -->
 
-        <!-- Contacts section --> 
+        <!-- Contacts section -->
         <section class="site-section section-contact" id="contact">
             <div class="container">
                 <h2>Get In Touch</h2>
@@ -342,12 +366,12 @@
                 </div>
             </div>
         </section>
-        <!-- End Contacts section --> 
+        <!-- End Contacts section -->
 
     </main><!-- /#main -->
     <!-- End Main content -->
 
-    <!-- Footer --> 
+    <!-- Footer -->
     <footer id="colophon" class="site-footer">
 
         <div class="container-fluid">
@@ -372,7 +396,7 @@
         </div>
 
     </footer><!-- /#footer -->
-    <!-- End Footer --> 
+    <!-- End Footer -->
 
     <!-- Modals -->
     <!-- <div id="portfolioItem1" class="modal fade fade-scale" role="dialog">
@@ -548,6 +572,6 @@
 
     <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
-  
+
 </body>
 </html>
