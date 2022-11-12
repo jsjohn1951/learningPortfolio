@@ -196,13 +196,13 @@
 								of pipe(), dup2(), and execve() functions.
 							</p>
 							<p style="text-align: left;">
-								By parsing content entered into the prompt in such a manner as to make it easy to implement expansions and perform 
-								the execution operations as well as redirections, project minishell is in a sense creating your own mini version of a 
-								shell that is functional enough for complex operations. The image above ^ shows just some of the tasks that my minishell 
+								By parsing content entered into the prompt in such a manner as to make it easy to implement expansions and perform
+								the execution operations as well as redirections, project minishell is in a sense creating your own mini version of a
+								shell that is functional enough for complex operations. The image above ^ shows just some of the tasks that my minishell
 								is capable of.
 							</p>
 							<p style="text-align: left;">
-								One invaluable aspect that minishell contributes to every student that reaches this level is teamwork. This group project 
+								One invaluable aspect that minishell contributes to every student that reaches this level is teamwork. This group project
 								is our first real experience working with others with the unified goal of finishing the project.
 							</p>
 							<p style="text-align: left;">
@@ -251,7 +251,7 @@
 							</p>
 							<p>(Currently Private) <a href="https://github.com/42nmadi/cub3d"><b>Github Repository</b></a></p>
 						</div>
-						
+
 						</div>
 						<div class="col-sm-5">
 							<div class="main-service text-right">
@@ -259,10 +259,20 @@
 								<p style="text-align: left;">
 									My project Push_swap contains my first implementation of an advanced sorting algorithm that sorts in categories 3, 5, 10, 100 and 500 numbers with a limited
 									number of moves. The idea is that numbers entered as argv arguments are inside stack A. A stack B of same size as stack A is given to help with the sorting, but is
-									initially empty. I had to code an algorithm that would efficiently use the push and pop methods of stacks. 
+									initially empty. I had to code an algorithm that would efficiently use the push and pop methods incorporated by stacks.
+								</p>
+								<p style="text-align: left;">
+									Pushing to a particular stack is simply placing an element on top of the stack. According to research I've done the most efficient way to sort the numbers in stack
+									A is by first rotating the elements of the stack either by placing the last elements on top or the reverse. If the number on the top of the stack is less than the
+									mediam of stack A you pop it from stack A and push it to stack B. After each element is popped and pushed I recheck the mediam of the stack.
+								</p>
+								<p style="text-align: left;">
+									Once stack A has only three elements left, I sort the remaining elements simply with rotating and swaping the top element with the one below it. After which I proceed
+									to repeat the rotating, popping and pushing, this time from stack B to stack A. Only after repeating the steps a few times do you end up with a sorted stack. This algorithm
+									is called midpoint algorithm.
 								</p>
 								<p>
-									
+
 								</p>
 								<p><a href="https://github.com/jsjohn1951/push_swap"><b>Github Repository</b></a></p>
 							</div>
@@ -354,6 +364,7 @@
 					<h4 style="text-align: left; color: #5B4B8A;">C</h4>
 					<h4 style="text-align: left; color: #7858A6;">C++</h4>
 				</div>
+
 				</div>
 
 
