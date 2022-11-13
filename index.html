@@ -96,6 +96,7 @@
 						<li class="page-scroll"><a href="#about">About Me</a></li>
                         <li class="page-scroll"><a href="#intro">Projects</a></li>
 						<li class="page-scroll"><a href="#skills">Skills</a></li>
+						<li class="page-scroll"><a href="#resume">Resume</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -184,7 +185,7 @@
         <!-- Hello section -->
 		<section class="site-section section-hello" id="intro">
 			<div class="container">
-				<h2>Projects &amp reflections</h2>
+				<h2>Some Notable Projects &amp reflections</h2>
 				<p class="section-subtitle"><span>Explore My Progress</span></p>
 				<div class="row">
 					<div class="col-sm-5">
@@ -217,7 +218,14 @@
                         </div>
 						<div class="main-service text-right">
                             <h3 style="text-align: left;">Philosophers</h3>
-                            <p style="text-align: left;">Our team is available to check on your questions and take in feedback as soon as possibly.</p>
+							<img style="width:100%" src="assets/img/usefulimg/philosopher-g9cd9e3c90_1920.jpg" alt="">
+                            <p style="text-align: left;">
+								Philosophers was an exciting project that requires multi-threading using pthreads and mutexes (or mutual exclusion). The idea
+								was for a random number of philosophers to sit around a table and eat spaghetti. Philosphers eat and sleep for a user specified
+								amount of time. The rest of the time the philosphers think about their life decisions. The task is to share forks (shared resources) 
+								amongst the philosophers whilest avoiding potential deadlocks that may cause two philosphers to stagnate. If philosophers don't eat 
+								within a user specified amount of time they die.
+							</p>
 							<p><a href="https://github.com/jsjohn1951/philo"><b>Github Repository</b></a></p>
                         </div>
 
@@ -240,7 +248,7 @@
 							</p>
 							<p style="text-align: left;">
 								My initial approach was to create a set of functions that will deal with the conversion of polar and cartesian coordinates. In doing so, I
-								can incorporate the use nested while loops and increment the angle and the radius of the polar coordinates. By converting to cartesian I can then
+								can incorporate the use of nested while loops and increment the angle and the radius of the polar coordinates. By converting to cartesian I can then
 								add the cartesian x and y to my player's x and y position. Comparing the result to the 2d map that was parsed, I can then determine whether the ray
 								has hit an object.
 							</p>
@@ -262,12 +270,13 @@
 								</p>
 								<p style="text-align: left;">
 									So far I've completed 2 Modules that were mainly about the construction of classes,
-									and am well underway to complete the 3rd which asks us to implement the use of fixed point numbers.
+									and am well underway to completing the 3rd project in the cluster which asks us to implement fixed point numbers.
 								</p>
 								<p><a href="https://github.com/jsjohn1951/cpp"><b>Github Repository</b></a></p>
 							</div>
 							<div class="main-service text-right">
 								<h3 style="text-align: left;">Push_swap</h3>
+								<img style="width:100%" src="assets/img/usefulimg/dice-g7136ab682_1920.jpg" alt="">
 								<p style="text-align: left;">
 									My project Push_swap contains my first implementation of an advanced sorting algorithm that sorts up to 500 numbers with a limited
 									number of moves. The idea is that numbers entered as argv arguments are inside stack A. A stack B of same size as stack A is given to help with the sorting, but is
@@ -279,7 +288,7 @@
 									mediam of stack A you pop it from stack A and push it to stack B. After each element is popped and pushed I recheck the mediam of the stack.
 								</p>
 								<p style="text-align: left;">
-									Once stack A has only three elements left, I sort the remaining elements simply with rotating and swaping the top element with the one below it. After which I proceed
+									Once stack A has only three elements left, I sort the remaining elements simply with rotating the stack and swaping the top element with the one below it. After which I proceed
 									to repeat the rotating, popping and pushing, this time from stack B to stack A. Only after repeating the steps a few times do you end up with a sorted stack. This algorithm
 									is called midpoint algorithm.
 								</p>
@@ -387,6 +396,25 @@
         </section>
         <!-- End Skills Section -->
 
+		<!-- Quote section -->
+<section class="section-background section-quote background-overlay text-center" id="Quote">
+	<div class="container">
+		<p>We make our <span>work look good</span> &amp; have experience in the creation of brand identities for <span>print &amp; web</span>, with a difference.</p>
+	</div>
+</section><!-- /.section-quote -->
+<!-- End Quote section -->
+
+		<!-- Resume Section -->
+		<section class="site-section section-about text-center" id="resume">
+			<h2>My Resume</h2>
+                <p class="section-subtitle"><span>My Goal is to prove my skills in a position that will offer a rich learning experience</span></p>
+				<div class="container">
+					<div class="row">
+					<iframe src="assets/docs/wismith-Resume.pdf" style="width: 800px; height: 1180px; border: none;"></iframe>
+					</div>
+            </div>
+        </section><!-- /.section-about -->
+        <!-- End Resume section -->
 
 				</div>
         </section>
@@ -434,6 +462,7 @@
 				<li class="page-scroll"><a href="#about">About Me</a></li>
                 <li class="page-scroll"><a href="#intro">Projects</a></li>
 				<li class="page-scroll"><a href="#skills">Skills</a></li>
+				<li class="page-scroll"><a href="#resume">Resume</a></li>
                 <li class="page-scroll"><a href="#contact">Contact</a></li>
             </ul>
 

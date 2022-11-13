@@ -351,7 +351,7 @@ svg {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #6a1526;
+  background-color: #6a1538;
 }
 
 .site-logo a {
@@ -671,7 +671,7 @@ svg {
   font-family: "Varela", sans-serif;
   margin: 0;
   font-size: 32px;
-  color: #196fc2;
+  color: #6a1538;
   text-align: center;
   text-transform: uppercase;
 }
@@ -2111,7 +2111,7 @@ svg {
 }
 
 .section-quote p span {
-  color: #196fc2;
+  color: #911e4e;
 }
 
 /* Sections background: Me */
