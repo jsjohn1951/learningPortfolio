@@ -2100,6 +2100,10 @@ svg {
   margin-top: 50px;
 }
 
+.checked {
+	color: orange;
+  }
+
 /* Sections background: Quote */
 .section-quote {
   background: url(../img/quote.jpg) center no-repeat fixed;
@@ -2110,12 +2114,26 @@ svg {
 	background: url(../img/usefulimg/cpp.jpg) center no-repeat fixed;
 }
 
+.section-quote3
+{
+	background: url(../img/usefulimg/html.jpg) center no-repeat fixed;
+}
+
 .section-quote2 p {
 	margin-top: 0;
 	font-size: 36px;
   }
   
   .section-quote2 p span {
+	color: #911e4e;
+  }
+
+  .section-quote3 p {
+	margin-top: 0;
+	font-size: 36px;
+  }
+  
+  .section-quote3 p span {
 	color: #911e4e;
   }
 
