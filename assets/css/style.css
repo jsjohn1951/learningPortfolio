@@ -2119,6 +2119,11 @@ svg {
 	background: url(../img/usefulimg/html.jpg) center no-repeat fixed;
 }
 
+.section-quote4
+{
+	background: url(../img/usefulimg/guywithlaptop.jpg) center no-repeat fixed;
+}
+
 .section-quote2 p {
 	margin-top: 0;
 	font-size: 36px;
@@ -2134,6 +2139,15 @@ svg {
   }
   
   .section-quote3 p span {
+	color: #911e4e;
+  }
+
+  .section-quote4 p {
+	margin-top: 0;
+	font-size: 36px;
+  }
+  
+  .section-quote4 p span {
 	color: #911e4e;
   }
 
